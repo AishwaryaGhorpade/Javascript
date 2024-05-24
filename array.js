@@ -26,7 +26,7 @@ console.log(arr);
 arr.shift();     //shift: remove 1st element
 console.log(arr);
 
-console.log(arr.includes(5));
+console.log(arr.includes(5));  
 console.log(arr.includes(19));
 
 console.log(arr.indexOf(3));  //returns the ele(3) index
