@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handing</title>
+</head>
+<body>
+    <h1 id="id1">click here</h1>
+    <div id="main">
+        <h3 id="id2">hello</h3>
+        <h3 id="id3">Welcome</h3>
+        <h3 id="id4">Good morning </h3>
+    </div>
+    
+</body>
+<script>
+//attachEvent(),addEventListener()
+//jQuery-on
+//type,timestamp,defaultPrevented
+//target,toElement,scrElemet,currentTarget
+//clientX,ClientY,screenX,currentTarget,
+//altkey, ctrlkey,shiftkey,keyCode
+
+//Syntax:
+//select element.addEventListener(event,function,Propogation)
+//propogation:true,false  (default value:false)
+document.getElementById("id1").addEventListener("click",function(e){
+// alert("heading clicked...!"); 
+console.log(e )
+},false);
+
+//propogation
+document.getElementById("main").addEventListener("click",function(){
+    console.log("main id clicked..!");
+},true);
+document.getElementById("id3").addEventListener("click",function(){
+    console.log("id3 clicked..!");
+},false);
+document.getElementById("id4").addEventListener("click",function(){
+    console.log("id4 clicked..!");
+},true);
+
+</script>
+</html>

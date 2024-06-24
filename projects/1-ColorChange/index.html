@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Background Color Switcher</title>
+    <style>
+        .canvas .button{
+            height: 60px;
+            width: 60px;
+        }
+        .buttons{
+            padding: 20px 300px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #gray{
+            background-color: gray;
+            border: 2px solid black;
+        }
+        #white{
+            background-color: white;
+            border: 2px solid black;
+        }
+        #blue{
+            background-color: blue;
+            border: 2px solid black;
+        }
+        #yellow{
+            background-color: yellow;
+            border: 2px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <button type="submit" style="background-color: beige;"><a href="../home.html" area-current="page">Home</a></button>
+    </nav>
+    <div class="canvas">
+      <h1>Color Scheme switcher</h1>
+      <div class="buttons">
+      <div class="button" id="gray"></div>
+      <div class="button" id="white"></div>
+      <div class="button" id="blue"></div>
+      <div class="button" id="yellow"></div>
+    </div>
+      <h2>
+        Try clicking on one of the colors above
+        <span>to change the backgroung color of the this page! </span>
+      </h2>
+    </div>
+    <script src="chaiaurcode.js"></script>
+  </body>
+</html>
