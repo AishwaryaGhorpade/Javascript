@@ -1,0 +1,19 @@
+Javascript is Syncronous language.
+Syncronous:only one code executed at a time.one code executed after the other.
+
+Javascript is Single tread:all code executed as single thread.
+
+
+Execution Context:
+execute one line of code at a time.
+each operation waits for the last one to complete before executiong.
+uses call stack & memory heap
+
+-->Glogal Execution Context
+-->Function Execution Context
+
+
+Blocking code Vs Non Blocking code
+Blocking code:Block the flow of program  ex:Read file Sync(means can't read file)
+Non Blocking code:Does not block execution   ex:Read File Async(can read file)
+
