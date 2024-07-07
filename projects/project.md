@@ -1,7 +1,7 @@
 ## color change
 
 ```html
-
+<!-- html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,7 +49,7 @@
 ```
 
 ```css
-
+/* css */
 html {
   margin: 0;
 }
@@ -87,7 +87,7 @@ span {
 ```
 
 ```javascript
-
+// js
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
